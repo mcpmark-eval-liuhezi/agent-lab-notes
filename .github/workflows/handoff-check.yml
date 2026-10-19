@@ -3,6 +3,9 @@ name: Handoff Check
 on:
   push
 
+permissions:
+  contents: read
+
 jobs:
   handoff-check:
     runs-on: ubuntu-latest
