@@ -1,0 +1,11 @@
+name: Handoff Check
+
+on:
+  push
+
+jobs:
+  handoff-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say ok
+        run: echo "Automation is alive: handoff check OK"
